@@ -1,0 +1,16 @@
+t = 0
+x = 0.1  
+while t <= 2000:
+  rate(10000)
+  vel1.plot(pos = (t , mag(list[0].velocity)))
+  vel2.plot(pos = (t , mag(list[1].velocity)))
+  vel3.plot(pos = (t , mag(list[2].velocity)))
+  vel4.plot(pos = (t , mag(list[3].velocity)))
+  vel5.plot(pos = (t , mag(list[4].velocity)))
+  vel6.plot(pos = (t , mag(list[5].velocity)))
+  vel7.plot(pos = (t , mag(list[6].velocity)))
+  vel8.plot(pos = (t , mag(list[7].velocity)))
+  vel9.plot(pos = (t , mag(list[8].velocity)))
+  vel10.plot(pos = (t , mag(list[9].velocity)))
+  vel11_curve.plot(pos = (t , mag(ball.velocity_tx)))
+  t=t+x
